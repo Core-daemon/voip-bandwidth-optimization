@@ -473,62 +473,31 @@ For this project, the main constraint was bandwidth availability, and the IAX2 t
 
 ---
 
+
 ## Documentation
 
-Additional technical documentation will be maintained in the `docs` directory.
+Detailed technical documentation for this project is available in the `docs` directory.
 
-Planned documentation includes:
+| Document | Description |
+|---|---|
+| [Technical Architecture](docs/architecture.md) | SIP-to-IAX2-to-SIP architecture, protocol boundaries and constrained-network design. |
+| [Bandwidth Testing](docs/bandwidth-testing.md) | Historical G.729 bandwidth testing, `iftop` measurement approach and measurement limitations. |
+| [SIP and IAX2 Interworking](docs/sip-iax2-interworking.md) | Two-Asterisk interworking design, IAX2 trunk, SIP gateways, NAT and call flow. |
+| [Results and Engineering Analysis](docs/results-analysis.md) | Analysis of the historical bandwidth observations and engineering significance. |
+| [Project Evidence](docs/project-evidence.md) | Project history, my engineering contribution, independent confirmation and evidence boundaries. |
 
-- architecture and call flow
-- bandwidth measurement methodology
-- SIP and IAX2 interworking
-- technical results and analysis
-- project evidence
-- verified technical evidence where original systems or records remain available
+### Evidence status
 
-The planned repository structure is:
+This repository is a retrospective technical reconstruction of engineering work carried out at Karnaphuli Online Limited in approximately 2010.
 
-```text
-voip-bandwidth-optimization/
-│
-├── README.md
-│
-└── docs/
-    ├── architecture.md
-    ├── bandwidth-testing.md
-    ├── sip-iax2-interworking.md
-    ├── results-analysis.md
-    ├── project-evidence.md
-    └── verified-technical-evidence.md
-```
+The original server configurations, packet captures, `iftop` screenshots and other contemporaneous technical records are no longer available.
 
-Files will be added as the underlying technical information and available evidence are reviewed.
+The historical project and my involvement can instead be supported by:
 
----
+- a current KOL recommendation/employment letter referring to the bandwidth optimisation work; and
+- independent confirmation from Monoj Paul, who participated in the bandwidth testing.
 
-## Evidence Approach
-
-This repository is being prepared retrospectively from the original engineering work.
-
-Where historical records or retained infrastructure are available, they will be identified separately from reconstructed diagrams and explanatory documentation.
-
-Measurements will be presented as project-specific observations rather than general protocol specifications.
-
-No historical screenshots, measurements or configuration files will be represented as original evidence unless their source can be established.
-
-Where evidence is collected from a retained system at a later date, the actual inspection date will be stated clearly.
-
----
-
-## Evidence Boundaries
-
-Architecture diagrams created for this repository are explanatory reconstructions of the engineering design.
-
-They should not be interpreted as diagrams originally produced during the historical project unless explicitly identified as such.
-
-Likewise, any current screenshots taken from retained infrastructure will be labelled with their actual capture date.
-
-Historical project dates, customer relationships and individual engineering contribution should be supported separately by appropriate documentary evidence where required.
+Current diagrams and Markdown documentation should not be interpreted as documents created in 2010.
 
 ---
 
